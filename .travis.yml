@@ -7,5 +7,5 @@ before_install:
 before_script:
     - gcc --version
     - clang --version
-    - xcode-select -print-path
+    - xcodebuild -version
 script: rake test
