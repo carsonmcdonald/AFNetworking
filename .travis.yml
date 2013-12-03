@@ -2,5 +2,6 @@ language: objective-c
 before_install:
     - brew update
     - brew uninstall xctool && brew install xctool --HEAD
+    - gem install cocoapods
     - cd Tests && pod install && cd $TRAVIS_BUILD_DIR
 script: rake test
