@@ -22,16 +22,6 @@
                ReferencedContainer = "container:AFNetworking Tests.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B65F1D45186350F900C0D21C"
-               BuildableName = "TestAppTests.xctest"
-               BlueprintName = "TestAppTests"
-               ReferencedContainer = "container:AFNetworking Tests.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
