@@ -1,11 +1,3 @@
-//
-//  main.m
-//  TestApp
-//
-//  Created by Carson on 12/19/13.
-//  Copyright (c) 2013 AFNetworking. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
