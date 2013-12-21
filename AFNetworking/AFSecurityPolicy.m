@@ -258,7 +258,7 @@ static BOOL AFCertificateHostMatchesDomain(NSString *certificateHost, NSString *
     if (!AFServerTrustIsValid(serverTrust)) {
         return NO;
     }
-
+    
     NSArray *serverCertificates = AFCertificateTrustChainForServerTrust(serverTrust);
     switch (self.SSLPinningMode) {
         case AFSSLPinningModeNone:
@@ -292,8 +292,9 @@ static BOOL AFCertificateHostMatchesDomain(NSString *certificateHost, NSString *
                     }
                 }
             }
-
-            return trustedPublicKeyCount > 0 && trustedPublicKeyCount == [serverCertificates count];
+            return trustedPublicKeyCount > 0 &&
+                   ((self.validatesCertificateChain && trustedPublicKeyCount == [serverCertificates count]) ||
+                    (!self.validatesCertificateChain && trustedPublicKeyCount == 1));
         }
             break;
         default:
