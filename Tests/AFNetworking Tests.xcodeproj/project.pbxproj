@@ -24,8 +24,6 @@
 		29CBFC5A17DF61B30021AB75 /* AFSecurityPolicyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBFC5917DF61B30021AB75 /* AFSecurityPolicyTests.m */; };
 		29CBFC7617DF697C0021AB75 /* HTTPBinOrgServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC7517DF697C0021AB75 /* HTTPBinOrgServerTrustChain */; };
 		29CBFC7717DF697C0021AB75 /* HTTPBinOrgServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC7517DF697C0021AB75 /* HTTPBinOrgServerTrustChain */; };
-		29CBFC7917DF6B200021AB75 /* httpbinorg_10242013.cer in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC7817DF6B200021AB75 /* httpbinorg_10242013.cer */; };
-		29CBFC7A17DF6B200021AB75 /* httpbinorg_10242013.cer in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC7817DF6B200021AB75 /* httpbinorg_10242013.cer */; };
 		29CBFC8717DF74C60021AB75 /* ADNNetServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC8617DF74C60021AB75 /* ADNNetServerTrustChain */; };
 		29CBFC8817DF74C60021AB75 /* ADNNetServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 29CBFC8617DF74C60021AB75 /* ADNNetServerTrustChain */; };
 		36DE264E18053E930062F4E3 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 36DE264B18053E930062F4E3 /* adn_0.cer */; };
@@ -49,6 +47,9 @@
 		B641211B186643F1000142BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29133DD617DE77ED006E0493 /* UIKit.framework */; };
 		B6412123186643F1000142BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6412121186643F1000142BF /* InfoPlist.strings */; };
 		B6412125186643F1000142BF /* iOSTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6412124186643F1000142BF /* iOSTestAppTests.m */; };
+		B641212F18664739000142BF /* Geotrust_Root_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212C18664739000142BF /* Geotrust_Root_CA.cer */; };
+		B641213018664739000142BF /* httpbinorg_11212014.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212D18664739000142BF /* httpbinorg_11212014.cer */; };
+		B641213118664739000142BF /* Rapid_SSL_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212E18664739000142BF /* Rapid_SSL_CA.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +104,6 @@
 		29CBFC3E17DF58000021AB75 /* AFHTTPSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSerializationTests.m; sourceTree = "<group>"; };
 		29CBFC5917DF61B30021AB75 /* AFSecurityPolicyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicyTests.m; sourceTree = "<group>"; };
 		29CBFC7517DF697C0021AB75 /* HTTPBinOrgServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTPBinOrgServerTrustChain; sourceTree = "<group>"; };
-		29CBFC7817DF6B200021AB75 /* httpbinorg_10242013.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_10242013.cer; sourceTree = "<group>"; };
 		29CBFC8617DF74C60021AB75 /* ADNNetServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ADNNetServerTrustChain; sourceTree = "<group>"; };
 		2B6D24F8E1B74E10A269E8B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DE264B18053E930062F4E3 /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_0.cer; path = Resources/ADN.net/ADNNetServerTrustChain/adn_0.cer; sourceTree = "<group>"; };
@@ -124,6 +124,9 @@
 		B6412120186643F1000142BF /* iOSTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		B6412122186643F1000142BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6412124186643F1000142BF /* iOSTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTestAppTests.m; sourceTree = "<group>"; };
+		B641212C18664739000142BF /* Geotrust_Root_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geotrust_Root_CA.cer; sourceTree = "<group>"; };
+		B641212D18664739000142BF /* httpbinorg_11212014.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_11212014.cer; sourceTree = "<group>"; };
+		B641212E18664739000142BF /* Rapid_SSL_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rapid_SSL_CA.cer; sourceTree = "<group>"; };
 		F8C6F281174D2C6200B154D5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Example/Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -314,7 +317,9 @@
 		29CBFC4E17DF61920021AB75 /* HTTPBin.org */ = {
 			isa = PBXGroup;
 			children = (
-				29CBFC7817DF6B200021AB75 /* httpbinorg_10242013.cer */,
+				B641212C18664739000142BF /* Geotrust_Root_CA.cer */,
+				B641212D18664739000142BF /* httpbinorg_11212014.cer */,
+				B641212E18664739000142BF /* Rapid_SSL_CA.cer */,
 				29CBFC7517DF697C0021AB75 /* HTTPBinOrgServerTrustChain */,
 			);
 			name = HTTPBin.org;
@@ -499,11 +504,13 @@
 			files = (
 				29CBFC8717DF74C60021AB75 /* ADNNetServerTrustChain in Resources */,
 				2902D28117DF4E1200C81C5A /* InfoPlist.strings in Resources */,
-				29CBFC7917DF6B200021AB75 /* httpbinorg_10242013.cer in Resources */,
 				36DE264E18053E930062F4E3 /* adn_0.cer in Resources */,
+				B641213018664739000142BF /* httpbinorg_11212014.cer in Resources */,
 				36DE264F18053E930062F4E3 /* adn_1.cer in Resources */,
 				36DE265018053E930062F4E3 /* adn_2.cer in Resources */,
 				29CBFC7617DF697C0021AB75 /* HTTPBinOrgServerTrustChain in Resources */,
+				B641213118664739000142BF /* Rapid_SSL_CA.cer in Resources */,
+				B641212F18664739000142BF /* Geotrust_Root_CA.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +520,6 @@
 			files = (
 				29CBFC8817DF74C60021AB75 /* ADNNetServerTrustChain in Resources */,
 				2902D29517DF4E2A00C81C5A /* InfoPlist.strings in Resources */,
-				29CBFC7A17DF6B200021AB75 /* httpbinorg_10242013.cer in Resources */,
 				29CBFC7717DF697C0021AB75 /* HTTPBinOrgServerTrustChain in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1012,6 +1018,7 @@
 				B6412128186643F1000142BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6412129186643F1000142BF /* Build configuration list for PBXNativeTarget "iOSTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -1020,6 +1027,7 @@
 				B641212B186643F1000142BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
