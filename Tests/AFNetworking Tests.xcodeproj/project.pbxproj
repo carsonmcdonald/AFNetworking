@@ -37,6 +37,8 @@
 		6D86BAA5C6174E98AE719CE9 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E73C267F33406A9F92476C /* libPods-ios.a */; };
 		77D65EBC1848A03C004CA024 /* AFPropertyListResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D65EBB1848A03C004CA024 /* AFPropertyListResponseSerializerTests.m */; };
 		77D65EBD1848A03C004CA024 /* AFPropertyListResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D65EBB1848A03C004CA024 /* AFPropertyListResponseSerializerTests.m */; };
+		B64120F51865EC51000142BF /* Rapid_SSL_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B64120F31865EC51000142BF /* Rapid_SSL_CA.cer */; };
+		B64120F61865EC51000142BF /* Geotrust_Cross_Root_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B64120F41865EC51000142BF /* Geotrust_Cross_Root_CA.cer */; };
 		B65F1D31186350F900C0D21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544EC35173BE382004117E8 /* Foundation.framework */; };
 		B65F1D32186350F900C0D21C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29133DD417DE77A5006E0493 /* CoreGraphics.framework */; };
 		B65F1D33186350F900C0D21C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29133DD617DE77ED006E0493 /* UIKit.framework */; };
@@ -97,6 +99,8 @@
 		55E73C267F33406A9F92476C /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D65EBB1848A03C004CA024 /* AFPropertyListResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListResponseSerializerTests.m; sourceTree = "<group>"; };
 		96A923755B00464187DEDBAF /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64120F31865EC51000142BF /* Rapid_SSL_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rapid_SSL_CA.cer; sourceTree = "<group>"; };
+		B64120F41865EC51000142BF /* Geotrust_Cross_Root_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geotrust_Cross_Root_CA.cer; sourceTree = "<group>"; };
 		B65F1D30186350F900C0D21C /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65F1D36186350F900C0D21C /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		B65F1D38186350F900C0D21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -283,6 +287,8 @@
 		29CBFC4E17DF61920021AB75 /* HTTPBin.org */ = {
 			isa = PBXGroup;
 			children = (
+				B64120F31865EC51000142BF /* Rapid_SSL_CA.cer */,
+				B64120F41865EC51000142BF /* Geotrust_Cross_Root_CA.cer */,
 				29CBFC7817DF6B200021AB75 /* httpbinorg_10242013.cer */,
 				29CBFC7517DF697C0021AB75 /* HTTPBinOrgServerTrustChain */,
 			);
@@ -427,9 +433,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CBFC8717DF74C60021AB75 /* ADNNetServerTrustChain in Resources */,
+				B64120F61865EC51000142BF /* Geotrust_Cross_Root_CA.cer in Resources */,
 				2902D28117DF4E1200C81C5A /* InfoPlist.strings in Resources */,
 				29CBFC7917DF6B200021AB75 /* httpbinorg_10242013.cer in Resources */,
 				36DE264E18053E930062F4E3 /* adn_0.cer in Resources */,
+				B64120F51865EC51000142BF /* Rapid_SSL_CA.cer in Resources */,
 				36DE264F18053E930062F4E3 /* adn_1.cer in Resources */,
 				36DE265018053E930062F4E3 /* adn_2.cer in Resources */,
 				29CBFC7617DF697C0021AB75 /* HTTPBinOrgServerTrustChain in Resources */,
