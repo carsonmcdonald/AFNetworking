@@ -45,9 +45,6 @@
 		B641212F18664739000142BF /* Geotrust_Root_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212C18664739000142BF /* Geotrust_Root_CA.cer */; };
 		B641213018664739000142BF /* httpbinorg_11212014.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212D18664739000142BF /* httpbinorg_11212014.cer */; };
 		B641213118664739000142BF /* Rapid_SSL_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212E18664739000142BF /* Rapid_SSL_CA.cer */; };
-		B641213218673941000142BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29133DD817DE7829006E0493 /* Security.framework */; };
-		B641213318673956000142BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4EC32173D7DD20083E116 /* SystemConfiguration.framework */; };
-		B64121341867395F000142BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4EC30173D7DCA0083E116 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,9 +147,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64121341867395F000142BF /* MobileCoreServices.framework in Frameworks */,
-				B641213318673956000142BF /* SystemConfiguration.framework in Frameworks */,
-				B641213218673941000142BF /* Security.framework in Frameworks */,
 				B6412104186643F0000142BF /* CoreGraphics.framework in Frameworks */,
 				B6412105186643F0000142BF /* UIKit.framework in Frameworks */,
 				B6412103186643F0000142BF /* Foundation.framework in Frameworks */,
