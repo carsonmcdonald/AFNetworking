@@ -50,6 +50,16 @@
 		B64121341867395F000142BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4EC30173D7DCA0083E116 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B641213518673A4D000142BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2544EC2A173BE382004117E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6412101186643F0000142BF;
+			remoteInfo = iOSTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2544EC35173BE382004117E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2544EC44173BE382004117E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -357,6 +367,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B641213618673A4D000142BF /* PBXTargetDependency */,
 			);
 			name = "iOS Tests";
 			productName = "iOS Tests";
@@ -573,6 +584,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B641213618673A4D000142BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6412101186643F0000142BF /* iOSTestApp */;
+			targetProxy = B641213518673A4D000142BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2902D27F17DF4E1200C81C5A /* InfoPlist.strings */ = {
