@@ -45,8 +45,6 @@
 		B6412119186643F1000142BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B9ED5C17DF4D350021E4D5 /* XCTest.framework */; };
 		B641211A186643F1000142BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544EC35173BE382004117E8 /* Foundation.framework */; };
 		B641211B186643F1000142BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29133DD617DE77ED006E0493 /* UIKit.framework */; };
-		B6412123186643F1000142BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6412121186643F1000142BF /* InfoPlist.strings */; };
-		B6412125186643F1000142BF /* iOSTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6412124186643F1000142BF /* iOSTestAppTests.m */; };
 		B641212F18664739000142BF /* Geotrust_Root_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212C18664739000142BF /* Geotrust_Root_CA.cer */; };
 		B641213018664739000142BF /* httpbinorg_11212014.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212D18664739000142BF /* httpbinorg_11212014.cer */; };
 		B641213118664739000142BF /* Rapid_SSL_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = B641212E18664739000142BF /* Rapid_SSL_CA.cer */; };
@@ -121,9 +119,6 @@
 		B6412110186643F0000142BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B6412112186643F0000142BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6412118186643F1000142BF /* iOSTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6412120186643F1000142BF /* iOSTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTestAppTests-Info.plist"; sourceTree = "<group>"; };
-		B6412122186643F1000142BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B6412124186643F1000142BF /* iOSTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTestAppTests.m; sourceTree = "<group>"; };
 		B641212C18664739000142BF /* Geotrust_Root_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geotrust_Root_CA.cer; sourceTree = "<group>"; };
 		B641212D18664739000142BF /* httpbinorg_11212014.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_11212014.cer; sourceTree = "<group>"; };
 		B641212E18664739000142BF /* Rapid_SSL_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rapid_SSL_CA.cer; sourceTree = "<group>"; };
@@ -188,7 +183,6 @@
 				2902D27C17DF4E1200C81C5A /* iOS Tests */,
 				2902D29017DF4E2A00C81C5A /* OS X Tests */,
 				B6412106186643F0000142BF /* iOSTestApp */,
-				B641211E186643F1000142BF /* iOSTestAppTests */,
 				2544EC34173BE382004117E8 /* Frameworks */,
 				2544EC33173BE382004117E8 /* Products */,
 			);
@@ -357,24 +351,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B641211E186643F1000142BF /* iOSTestAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6412124186643F1000142BF /* iOSTestAppTests.m */,
-				B641211F186643F1000142BF /* Supporting Files */,
-			);
-			path = iOSTestAppTests;
-			sourceTree = "<group>";
-		};
-		B641211F186643F1000142BF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6412120186643F1000142BF /* iOSTestAppTests-Info.plist */,
-				B6412121186643F1000142BF /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F8E801E9175AC34D008D3886 /* Certificates */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,7 +513,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6412123186643F1000142BF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +621,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6412125186643F1000142BF /* iOSTestAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,14 +655,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B641210A186643F0000142BF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B6412121186643F1000142BF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6412122186643F1000142BF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
