@@ -416,9 +416,6 @@
 					2902D27717DF4E1100C81C5A = {
 						TestTargetID = B6412101186643F0000142BF;
 					};
-					2902D28B17DF4E2900C81C5A = {
-						TestTargetID = B6412101186643F0000142BF;
-					};
 				};
 			};
 			buildConfigurationList = 2544EC2D173BE382004117E8 /* Build configuration list for PBXProject "AFNetworking Tests" */;
@@ -731,7 +728,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTestApp.app/iOSTestApp";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -754,7 +750,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -763,7 +758,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2580154A173EB4B40026AA6E /* Pods-osx.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTestApp.app/iOSTestApp";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -783,7 +777,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
